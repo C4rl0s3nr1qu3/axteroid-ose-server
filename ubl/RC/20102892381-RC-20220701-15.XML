@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><SummaryDocuments xmlns="urn:sunat:names:specification:ubl:peru:schema:xsd:SummaryDocuments-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="U15-20102892381"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>iUeCUX1A8be9IiKCGinr0o0i3Os=</DigestValue></Reference></SignedInfo><SignatureValue>MIS+wDMO/xVymrLM6k0s3Xapy/hqlZdw2ukQJMoYzxU/gHZTw0z6BJaicdG8M+8YNg9f5WwE/XWjq7l2bYDiBPUc2bRdVaP5rl+0FORqC4jVYDEsTkw+w7QhklFCliY2T2/vE2USNJcFJnjYZ9LhjH0igPLtJei4v3edE1TVhzvTvc+vGH1kapdZzVPi7cvS8D3Si2Jrd0E+qg9dWLkdTsvyYfECP0vCyXDljM9PdaG+KSoH7RHOr/bkY+lPUtO/S47Xn0UJN40NKjvnA1dPgRVLA8DltHxZ24xqiz6P3JhfVF3fahF6kxZvDMMET9vDs7BVeXFYlcbi5mOqJg6gKQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>E=aguidino@alvarezbohl.pe, CN=ANDRES ALEJANDRO GUIDINO VALDERRAMA, OU=DNI 02873120, OU=20102892381, OU=Validated by ZyTrust Sociedad Anónima, O=DISTRIBUIDORA COMERCIAL ALVAREZ BOHL SRL, L=PIURA, C=PE</X509SubjectName><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+  <cbc:CustomizationID>1.1</cbc:CustomizationID>
+  <cbc:ID>RC-20220701-15</cbc:ID>
+  <cbc:ReferenceDate>2022-06-29</cbc:ReferenceDate>
+  <cbc:IssueDate>2022-07-01</cbc:IssueDate>
+  <cac:Signature>
+    <cbc:ID>U15</cbc:ID>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20102892381</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[DISTRIBUIDORA COMERCIAL ALVAREZ BOHL SRL]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#U15-20102892381</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cbc:CustomerAssignedAccountID>20102892381</cbc:CustomerAssignedAccountID>
+    <cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+    <cac:Party>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[DISTRIBUIDORA COMERCIAL ALVAREZ BOHL SRL]]></cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</SummaryDocuments>

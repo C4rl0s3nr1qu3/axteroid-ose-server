@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DespatchAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2" xmlns:biz="urn:bizlinks:names:specification:ubl:peru:schema:xsd:BizlinksAggregateComponents-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1">
+	<ext:UBLExtensions>
+		
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+	<cbc:CustomizationID>1.0</cbc:CustomizationID>
+	<cbc:ID>TQ18-00000405</cbc:ID>
+	<cbc:IssueDate>2022-02-27</cbc:IssueDate>
+	<cbc:DespatchAdviceTypeCode>09</cbc:DespatchAdviceTypeCode>
+	<cbc:Note>OBSERV.</cbc:Note>
+	<cac:AdditionalDocumentReference>
+		<cbc:ID>2564-21-321-000313</cbc:ID>
+		<cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+	</cac:AdditionalDocumentReference>
+	<cac:Signature>
+		<cbc:ID>IDSignKG</cbc:ID>
+		<cac:SignatoryParty>
+			<cac:PartyIdentification>
+				<cbc:ID>20478005017</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyName>
+				<cbc:Name><![CDATA[FILTROS LYS]]></cbc:Name>
+			</cac:PartyName>
+		</cac:SignatoryParty>
+		<cac:DigitalSignatureAttachment>
+			<cac:ExternalReference>
+				<cbc:URI>#signatureKG</cbc:URI>
+			</cac:ExternalReference>
+		</cac:DigitalSignatureAttachment>
+	</cac:Signature>
+	<cac:DespatchSupplierParty>
+		<cbc:CustomerAssignedAccountID schemeID="6">20478005017</cbc:CustomerAssignedAccountID>
+		<cac:Party>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName><![CDATA[FILTROS LYS]]></cbc:RegistrationName>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:DespatchSupplierParty>
+	<cac:DeliveryCustomerParty>
+		<cbc:CustomerAssignedAccountID schemeID="6">10082647681</cbc:CustomerAssignedAccountID>
+		<cac:Party>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName><![CDATA[LEON HUERTA, 			VICENTE HERMINIO]]></cbc:RegistrationName>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:DeliveryCustomerParty>
+	<cac:SellerSupplierParty>
+		<cbc:CustomerAssignedAccountID schemeID="6">20100359708</cbc:CustomerAssignedAccountID>
+		<cac:Party>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName><![CDATA[Razon social]]></cbc:RegistrationName>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:SellerSupplierParty>
+	<cac:Shipment>
+		<cbc:ID>1</cbc:ID>
+		<cbc:HandlingCode>08</cbc:HandlingCode>
+		<cbc:Information>Traslado</cbc:Information>
+		<cbc:GrossWeightMeasure unitCode="KGM">5.00</cbc:GrossWeightMeasure>
+		<cbc:TotalTransportHandlingUnitQuantity>12</cbc:TotalTransportHandlingUnitQuantity>
+		<cbc:SplitConsignmentIndicator>false</cbc:SplitConsignmentIndicator>
+		<cac:ShipmentStage>
+			<cbc:TransportModeCode>01</cbc:TransportModeCode>
+			<cac:TransitPeriod>
+				<cbc:StartDate>2022-02-27</cbc:StartDate>
+			</cac:TransitPeriod>
+			<cac:CarrierParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeID="6">20478005017</cbc:ID>
+				</cac:PartyIdentification>
+				<cac:PartyName>
+					<cbc:Name><![CDATA[COMERCIAL Y LOGISTICA IBAÃ‘EZ]]></cbc:Name>
+				</cac:PartyName>
+			</cac:CarrierParty>
+			<cac:TransportMeans>
+				<cac:RoadTransport>
+					<cbc:LicensePlateID>D0N-722</cbc:LicensePlateID>
+				</cac:RoadTransport>
+			</cac:TransportMeans>
+			<cac:DriverPerson>
+				<cbc:ID schemeID="1">08614195</cbc:ID>
+			</cac:DriverPerson>
+		</cac:ShipmentStage>
+		<cac:Delivery>
+			<cac:DeliveryAddress>
+				<cbc:ID>150110</cbc:ID>
+				<cbc:StreetName><![CDATA[DIRECCIONPUNTOLLEGADA]]></cbc:StreetName>
+			</cac:DeliveryAddress>
+		</cac:Delivery>
+		<cac:OriginAddress>
+			<cbc:ID>150360</cbc:ID>
+			<cbc:StreetName><![CDATA[DIRECCIONPUNTOPARTIDA]]></cbc:StreetName>
+		</cac:OriginAddress>
+		<cac:FirstArrivalPortLocation>
+			<cbc:ID>LIM</cbc:ID>
+		</cac:FirstArrivalPortLocation>
+	</cac:Shipment>
+	<cac:DespatchLine>
+		<cbc:ID>1</cbc:ID>
+		<cbc:DeliveredQuantity unitCode="NIU">10.00</cbc:DeliveredQuantity>
+		<cac:OrderLineReference>
+			<cbc:LineID>1</cbc:LineID>
+		</cac:OrderLineReference>
+		<cac:Item>
+			<cbc:Name><![CDATA[FILTRO SELLADO DE ACEITE (LYS)]]></cbc:Name>
+			<cac:SellersItemIdentification>
+				<cbc:ID>LF1A</cbc:ID>
+			</cac:SellersItemIdentification>
+		</cac:Item>
+	</cac:DespatchLine>
+</DespatchAdvice>

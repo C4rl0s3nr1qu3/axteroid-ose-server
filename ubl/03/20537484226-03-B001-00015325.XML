@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ext:UBLExtensions>
+  
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+                <ds:Signature Id="SignSUNAT" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:SignedInfo>
+                        <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+                        <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+                        <ds:Reference URI="">
+                            <ds:Transforms>
+                                <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                            </ds:Transforms>
+                            <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                            <ds:DigestValue>KQHlSaEtU/EckVi/mmIbH44f/Sw=</ds:DigestValue>
+                        </ds:Reference>
+                    </ds:SignedInfo>
+                    <ds:SignatureValue>CbenE70KKRH5DkyHlDCtzUm7Mx7JvSna4FitMiCk9PadXmwe7CojdgTz2HEYjIMEk0qYdBwCh2y5jPVc5Ei02Kl81cU+O6I3LdzeMjUPs7v/pxnC6LBgrgHz6a9/tlriHhAIS5ES83ufHu85u+3rBTKiV8Vwa+nMJ16LV4uMj1k+GAStE4awuisB44h0KnCfMu4mMfdoZJfhk60zJcDLb1uKWEvONuWDpVhLp17aJaEECo7XjAAQhZPRgelh4eiRIeTZ+nLhXV/WJmLrzR2ju7UWFeIO3r2ZcRDMaG6E6CPi7JzhhqKpnwNsFKSssBkSI7kgBb1Jg40vkztoaKOLEg==</ds:SignatureValue>
+                    <ds:KeyInfo>
+                        <ds:X509Data>
+                            <ds:X509Certificate>MIIFwTCCBKmgAwIBAgIIWido/wtJpcwwDQYJKoZIhvcNAQELBQAwRjEkMCIGA1UEAwwbTGxhbWEucGUgU0hBMjU2IFN0YW5kYXJkIENBMREwDwYDVQQKDAhMTEFNQS5QRTELMAkGA1UEBhMCUEUwHhcNMjExMDA1MTcxODQ5WhcNMjIxMDA1MTcxODAwWjCCAVoxPTA7BgNVBAkMNEpSLiBNT05URVZJREVPIE5STy4gODgzIElOVC4gMzAwNCBVUkIuIEJBUlJJT1MgQUxUT1MxLzAtBgkqhkiG9w0BCQEWIGludmVyc2lvbmVzbWFyaWFsc2FjQGhvdG1haWwuY29tMSYwJAYDVQQDDB1NQU1BTkkgQUxWQVJFWiBHQUJJTkEgTE9VUkRFUzERMA8GA1UEBRMIMjk1MjU1NDYxGDAWBgNVBAwMD1RJVFVMQVIgR0VSRU5URTEtMCsGA1UECwwkRkFDVFVSQSBFTEVDVFJPTklDQSBSVUM6IDIwNTM3NDg0MjI2MSEwHwYDVQQLDBhWYWxpZGFkbyBwb3IgTGxhbWEucGUgRVIxJTAjBgNVBAoMHElOVkVSU0lPTkVTIE1BUklBJ0wgRS5JLlIuTC4xDTALBgNVBAcMBExJTUExCzAJBgNVBAYTAlBFMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwmX+b2fSG376CE8MPU4c528R61EAApAI3FPjEaIKh1IIpGHtQYFJOdccrZuLlvJgOzT/WMalsuTcnfpNt9u6g7xKQt2ZcxyhQ76DurOfPbjhTb1Rh6ZebGQn3xmnVrPP5VgefKmFSkET21WugZr6UmKtxSfVGnWi91sdcK4hdTW21LujVIUemGAHMGT0TJIDwwJAS5tEnQygiYcVLCrN56c/iBrLVBKkU2sWdEhJ0VY2Tpj7dD1nTPN2LfWpt40r6GNMcbumoLRR0Ba4alm7gdwaRV37tc9Oh37mKSumPBmBpspregxEFt4n+nPX4/G6vwQehSakYC9S7WqMyUlw7QIDAQABo4IBmzCCAZcwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRdiFut62X7/mii5NlvPVdyou8rmTBnBggrBgEFBQcBAQRbMFkwNQYIKwYBBQUHMAKGKWh0dHA6Ly9jcnQubGxhbWEucGUvbGxhbWFwZXN0YW5kYXJkY2EuY2VyMCAGCCsGAQUFBzABhhRodHRwOi8vb2NzcC5sbGFtYS5wZTArBgNVHREEJDAigSBpbnZlcnNpb25lc21hcmlhbHNhY0Bob3RtYWlsLmNvbTBGBgNVHSAEPzA9MDsGDSsGAQQBg5d3AAEAAgEwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly9sbGFtYS5wZS9yZXBvc2l0b3J5LzAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwOgYDVR0fBDMwMTAvoC2gK4YpaHR0cDovL2NybC5sbGFtYS5wZS9sbGFtYXBlc3RhbmRhcmRjYS5jcmwwHQYDVR0OBBYEFK7/Lj33BR3/RRWzogqf/2Ws9zO/MA4GA1UdDwEB/wQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAQEASCyWx0MAmPeHaKz5z+OmnXAZAcmaSP5qIayilGVsatWfTmzpeifyr6o9nqeZL13KQk+j/kwMTuaX6vhQO3JRfSQ75EGcHdNUIsIu2ShJCqo4Y4TKwF8VUPzcuaX28x8mGLmQHPYdT+lSc9YcbMUhHVpA+RP3f3yu8mbt5IOxLLQo8xofQDLB0CwMjki7PHM3s2ZH5Ofh/XTn1LxbNe8kYBmz0qNf65t1yUpNWJaOEjVcy9csP9+rrUN+fOFbq5R7zcCdT3v3V4m0BGQRYV2eOEhS1rDzUFV3N88KMPCwCImUkBG9XU1ZMnk08ldq79rL+TgJsWEJxpMxnNeolbnRHg==</ds:X509Certificate>
+                        </ds:X509Data>
+                    </ds:KeyInfo>
+                </ds:Signature>
+            </ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>2.0</cbc:CustomizationID>
+  <cbc:ID>B001-00015325</cbc:ID>
+  <cbc:IssueDate>2022-05-20</cbc:IssueDate>
+  <cbc:IssueTime>15:51:34</cbc:IssueTime>  
+  <cbc:DueDate>2022-05-20</cbc:DueDate>
+  
+  <cbc:InvoiceTypeCode listAgencyName="PE:SUNAT" listID="0101" listName="Tipo de Documento" listSchemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo51" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01" name="Tipo de Operacion">03</cbc:InvoiceTypeCode>
+					   
+  <cbc:Note languageLocaleID="1000"><![CDATA[QUINIENTOS SETENTA Y SEIS CON 00/100 SOLES]]></cbc:Note>
+  <cbc:DocumentCurrencyCode listAgencyName="United Nations Economic Commission for Europe" listID="ISO 4217 Alpha" listName="Currency">PEN</cbc:DocumentCurrencyCode>							  
+  <cac:Signature>
+    <cbc:ID>20537484226</cbc:ID>
+	<cbc:Note>Elaborado por Sistema de Emision Electronica Facturador SUNAT (SEE-SFS) 1.4</cbc:Note>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20537484226</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[INVERSIONES MARIA'L S.A.C.]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>SIGN</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20537484226</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[INVERSIONES MARIA'L S.A.C.]]></cbc:Name>
+      </cac:PartyName>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[INVERSIONES MARIA'L S.A.C.]]></cbc:RegistrationName>
+        <cac:RegistrationAddress>
+         <cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+		 <cbc:CitySubdivisionName><![CDATA[BARRIOS ALTOS]]></cbc:CitySubdivisionName>
+         <cbc:CityName><![CDATA[LIMA]]></cbc:CityName>
+         <cbc:CountrySubentity><![CDATA[LIMA]]></cbc:CountrySubentity>
+		 <cbc:CountrySubentityCode><![CDATA[150101]]></cbc:CountrySubentityCode>
+         <cbc:District><![CDATA[LIMA]]></cbc:District>	
+		 <cac:AddressLine>
+			<cbc:Line><![CDATA[JR. MONTEVIDEO 883 Int. 3004]]></cbc:Line>
+		 </cac:AddressLine>		 
+         <cac:Country>
+          <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+         </cac:Country>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+    </cac:Party>	
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="-" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">000</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[----]]></cbc:RegistrationName>
+		</cac:PartyLegalEntity>
+    </cac:Party>		
+  </cac:AccountingCustomerParty>
+  
+
+	
+
+   
+
+
+
+  <!-- Inicio Tributos cabecera-->	
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="PEN">87.86</cbc:TaxAmount>  
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">488.14</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">87.86</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cac:TaxScheme>
+            <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="UN/ECE 5153" schemeName="Codigo de tributos">1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>	
+	</cac:TaxTotal>	
+	<!-- Fin Tributos  Cabecera-->
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="PEN">488.14</cbc:LineExtensionAmount>	
+	<cbc:TaxInclusiveAmount currencyID="PEN">576.00</cbc:TaxInclusiveAmount>
+    <cbc:AllowanceTotalAmount currencyID="PEN">0.00</cbc:AllowanceTotalAmount>
+	<cbc:ChargeTotalAmount currencyID="PEN">0.00</cbc:ChargeTotalAmount>	
+	<cbc:PrepaidAmount currencyID="PEN">0.00</cbc:PrepaidAmount>	
+	<cbc:PayableAmount currencyID="PEN">576.00</cbc:PayableAmount>  
+  </cac:LegalMonetaryTotal>  
+<cac:InvoiceLine>
+<cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">12</cbc:InvoicedQuantity>
+	<cbc:LineExtensionAmount currencyID="PEN">488.14</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">48.00</cbc:PriceAmount>
+        <cbc:PriceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Precio" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+	 </cac:PricingReference>
+
+
+	
+	<!-- Inicio Tributos -->
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">87.86</cbc:TaxAmount>	  
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">488.14</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">87.86</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:Percent>18</cbc:Percent>
+          <cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="UN/ECE 5153" schemeName="Codigo de tributos">1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+
+    </cac:TaxTotal>	
+	<!-- Fin Tributos -->	
+    <cac:Item>
+      <cbc:Description><![CDATA[CHAQUETA DAMA YD (YZ7806103)]]></cbc:Description>
+	  <cac:SellersItemIdentification>
+        <cbc:ID>I07191</cbc:ID>
+	  </cac:SellersItemIdentification>
+	  
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">40.6779661017</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><ApplicationResponse xmlns="urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:ns5="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="signatureKG"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>mU7WBOLE9ZSCJMM0tjXSPG4w3SE=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>bCudq0idgdw7rYKYNgnwb2f/g1Ivvm2R8oqKqvs4fbeQ7OFJnu20kUOSPoml8HHj++c9zgjoAomk&#13;
+Sw9sO3jMiiFBljYX6TRkPpVfC7JmXyZK0ykS8Ui6Cb8sc5uxo8vCWaJhLdk6TmZv8uJgIl0UgU6J&#13;
+Km8Adb9EXOTY/bOSQiXf/6OZRKEdpNzMqnYGfi6qV5t7zyvTdy5GNNlroEhAG/EPHJFxt5GlKIuw&#13;
+mckHwhr3ilwreWnRTB4ZBk+hG6m0hC4aoiR31IdZLGSFuUsQ/97dy+T6NVVbsUatf/eATY/Nf1zH&#13;
+rgnLJFka5/GvjV6YCgTNRHjqxxFjB9rp/InaFw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIJgTCCB2mgAwIBAgIJVZht9cTT3CpWMA0GCSqGSIb3DQEBCwUAMIIBIjELMAkGA1UEBhMCUEUx&#13;
+DTALBgNVBAgMBExJTUExDTALBgNVBAcMBExJTUExPTA7BgNVBAsMNHNlZSBjdXJyZW50IGFkZHJl&#13;
+c3MgYXQgd3d3LmNhbWVyZmlybWEuY29tLnBlL2FkZHJlc3MxMDAuBgNVBAsMJ0FDIENBTUVSRklS&#13;
+TUEgUEVSw5ogQ0VSVElGSUNBRE9TIC0gMjAxNjEUMBIGA1UEBRMLMjA1NjYzMDI0NDcxGjAYBgNV&#13;
+BGEMEU5UUlBFLTIwNTY2MzAyNDQ3MSAwHgYDVQQKDBdDQU1FUkZJUk1BIFBFUsOaIFMuQS5DLjEw&#13;
+MC4GA1UEAwwnQUMgQ0FNRVJGSVJNQSBQRVLDmiBDRVJUSUZJQ0FET1MgLSAyMDE2MB4XDTIyMDIy&#13;
+NDIxNDAzMloXDTIzMDIyNDIxNDAzMlowggGLMScwJQYJKoZIhvcNAQkBFhhqYXZpZXIuZHJheGxA&#13;
+Yml6bGlua3MubGExPDA6BgNVBAMMM0pBVklFUiBGRVJOQU5ETyBEUkFYTCBHQVJDSUEgUk9TRUxM&#13;
+IFJVQzoyMDQ3ODAwNTAxNzEYMBYGA1UEKgwPSkFWSUVSIEZFUk5BTkRPMRwwGgYDVQQEDBNEUkFY&#13;
+TCBHQVJDSUEgUk9TRUxMMRUwEwYDVQQFEwxETkk6MDc4NjE0NTYxEzARBgNVBAcMCk1JUkFGTE9S&#13;
+RVMxFDASBgNVBAgMC0xJTUEgLSBMSU1BMRgwFgYDVQQMDA9HRVJFTlRFIEdFTkVSQUwxGTAXBgNV&#13;
+BAsMEEdFUkVOQ0lBIEdFTkVSQUwxIzAhBgNVBAsMGklzc3VlZCBieSBQRVJVTUVESUEgIFtQRTFd&#13;
+MRQwEgYDVQQLDAsyMDQ3ODAwNTAxNzEUMBIGA1UEYQwLMjA0NzgwMDUwMTcxFTATBgNVBAoMDEJJ&#13;
+WkxJTktTIFNBQzELMAkGA1UEBhMCUEUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCu&#13;
+H+IBJQSFlRTUlWzP9B8JIv1zK7QW5d9PUAa7MgdC2GkcxV26IYWsMCcE7YbGb7DfVCLUWKFju4Ei&#13;
+fuhdiKU4NGZwSj0chuzAAvNxfIbqDcIWhnqxg0c325iSfoKIWC4XvaR88ZC4caikpSoCkHE7MqdF&#13;
+E5iltc4vqddYx5hhBmr0vy6bJUDy48Y9p2IB4OtmJiAY7JMhfrak1AfBWXfYj0NiQ3uKJJO0BGLx&#13;
+qO6sKJeCxa2/KmLugLbpSNcwAqyfreCmJcZoYU/zgpq2qdz/JWAzKRGuPljwrNS8K5A0YaVFvuJq&#13;
+oJBCykVZYUgAlFWz+qdqqkNX879c3fyFkxCNAgMBAAGjggNLMIIDRzAMBgNVHRMBAf8EAjAAMA4G&#13;
+A1UdDwEB/wQEAwIGwDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwHQYDVR0OBBYEFMod&#13;
+H0hUkx0YcSj7kVfJTYmSJUVsMIGNBggrBgEFBQcBAQSBgDB+MFQGCCsGAQUFBzAChkhodHRwOi8v&#13;
+d3d3LmNhbWVyZmlybWEuY29tL2NlcnRzL2FjX2NhbWVyZmlybWFfcGVydV9jZXJ0aWZpY2Fkb3Mt&#13;
+MjAxNi5jcnQwJgYIKwYBBQUHMAGGGmh0dHA6Ly9vY3NwLmNhbWVyZmlybWEuY29tMB8GA1UdIwQY&#13;
+MBaAFDpuZRjnVtLk8y3dpXxybf8w4YYnMIGgBgNVHR8EgZgwgZUwSKBGoESGQmh0dHA6Ly9jcmwu&#13;
+Y2FtZXJmaXJtYS5jb20vYWNfY2FtZXJmaXJtYV9wZXJ1X2NlcnRpZmljYWRvcy0yMDE2LmNybDBJ&#13;
+oEegRYZDaHR0cDovL2NybDEuY2FtZXJmaXJtYS5jb20vYWNfY2FtZXJmaXJtYV9wZXJ1X2NlcnRp&#13;
+ZmljYWRvcy0yMDE2LmNybDCB1wYDVR0RBIHPMIHMgRhqYXZpZXIuZHJheGxAYml6bGlua3MubGGk&#13;
+ga8wgawxHzAdBgorBgEEAYGHLh4HDA9KQVZJRVIgRkVSTkFORE8xFTATBgorBgEEAYGHLh4IDAVE&#13;
+UkFYTDEdMBsGCisGAQQBgYcuHgkMDUdBUkNJQSBST1NFTEwxUzBRBgorBgEEAYGHLh4KDENDRVJU&#13;
+SUZJQ0FETyBERSBQRVJTT05BIEpVUklESUNBIC0gQVRSSUJVVE8gREUgVklOQ1VMQUNJT04gQSBF&#13;
+TlRJREFEMBwGA1UdEgQVMBOBEWNhQGNhbWVyZmlybWEuY29tMIGcBgNVHSAEgZQwgZEwgY4GDCsG&#13;
+AQQBgYcuHhAAATB+MCkGCCsGAQUFBwIBFh1odHRwczovL3BvbGljeS5jYW1lcmZpcm1hLmNvbTBR&#13;
+BggrBgEFBQcCAjBFDENDRVJUSUZJQ0FETyBERSBQRVJTT05BIEpVUklESUNBIC0gQVRSSUJVVE8g&#13;
+REUgVklOQ1VMQUNJT04gQSBFTlRJREFEMA0GCSqGSIb3DQEBCwUAA4ICAQBPbmPkX3SAVFEONq8/&#13;
+aN/5zLLNOC8Js9ZKR36pQnR+3rWvNF0F04LIYoDfqj+Nms0FAp/8yMyTc1NTDeGYnUOCbrNDSdLq&#13;
+0ypgIRBKLTl9j2sM4opdwUphnbV1hH7hGHWORPDMw1Q6pd5oJgkr6pmSAK8xHmpewVfPVTEVjBJb&#13;
+IihxsNsvx47c9J41UIALKZXQLO8u/WfgnPIwmwCevBP5DXntJ3DncET+zZZVddMJSu3PgbDEKzM4&#13;
+lpPvu4L6XV3acdVuqwCActIqD+F3zIZUQa4YYrjRN+2Vz9lGwXjUSS7CtJXdw5ehe2RwOBThZGuV&#13;
+qDo5hRYCKHn0NNuZEwjEx8s1E2qp5ZBG82RovWyM/hJwlfFFU2xABdIxL0F8BXfridH11pIY7n0J&#13;
+Qg1OWHptcezklWi/gp7j/k5lmmgkjLNVF2f3AOu4OR0yX+77ezlA3kIv9cDtt8sKRfmcMcF4kqFV&#13;
+JaAXVRAwm9pBGs/+5cNFMUKxIXC5nYdEt+HbYj2hHryFCt+7JZPuVlRVVb4uaUBg4XRX2pmAROTw&#13;
+vkWy/Avdj5i7wZKk1FW/s10190NWlWJIvroSXmhIViBmdDlVc5OMS1K7xirv9tg7Dugdr1u6Bprf&#13;
+jpMXeIDDILbrsLqyrKg+Lt2IRVhg+UIOMDInmCxzPmcySYURe22jC0Y37g==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>1.0</cbc:CustomizationID>
+    <cbc:ID>1492b570-91bd-4968-87f1-b4222e35123a</cbc:ID>
+    <cbc:IssueDate>2022-04-04</cbc:IssueDate>
+    <cbc:IssueTime>17:47:36.00444</cbc:IssueTime>
+    <cbc:ResponseDate>2022-04-04</cbc:ResponseDate>
+    <cbc:ResponseTime>17:47:37.00536</cbc:ResponseTime>
+    <cac:SenderParty>
+        <cac:PartyLegalEntity>
+            <cbc:CompanyID schemeAgencyName="PE:SUNAT" schemeID="6" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo6">20517540341</cbc:CompanyID>
+        </cac:PartyLegalEntity>
+    </cac:SenderParty>
+    <cac:ReceiverParty>
+        <cac:PartyLegalEntity>
+            <cbc:CompanyID schemeAgencyName="PE:SUNAT" schemeID="6" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo6">20478005017</cbc:CompanyID>
+        </cac:PartyLegalEntity>
+    </cac:ReceiverParty>
+    <cac:DocumentResponse>
+        <cac:Response>
+            <cbc:ResponseCode listAgencyName="PE:SUNAT">0</cbc:ResponseCode>
+            <cbc:Description>El comprobante numero FC01-559, ha sido aceptada</cbc:Description>
+        </cac:Response>
+        <cac:DocumentReference>
+            <cbc:ID>FC01-559</cbc:ID>
+            <cbc:IssueDate>2022-04-04</cbc:IssueDate>
+            <cbc:IssueTime>18:43:00.0Z</cbc:IssueTime>
+            <cbc:DocumentTypeCode>07</cbc:DocumentTypeCode>
+            <cac:Attachment>
+                <cac:ExternalReference>
+                    <cbc:DocumentHash>zfKHj+TNhPDW7d0NmP5kp8+7v64=</cbc:DocumentHash>
+                </cac:ExternalReference>
+            </cac:Attachment>
+        </cac:DocumentReference>
+        <cac:IssuerParty>
+            <cac:PartyLegalEntity>
+                <cbc:CompanyID schemeID="6">20517540341</cbc:CompanyID>
+            </cac:PartyLegalEntity>
+        </cac:IssuerParty>
+        <cac:RecipientParty>
+            <cac:PartyLegalEntity>
+                <cbc:CompanyID schemeID="6">20509742945</cbc:CompanyID>
+            </cac:PartyLegalEntity>
+        </cac:RecipientParty>
+    </cac:DocumentResponse>
+</ApplicationResponse>

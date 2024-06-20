@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><VoidedDocuments xmlns="urn:sunat:names:specification:ubl:peru:schema:xsd:VoidedDocuments-1" xmlns:biz="urn:bizlinks:names:specification:ubl:peru:schema:xsd:BizlinksAggregateComponents-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1"><ext:UBLExtensions>
+		
+	
+		
+	
+		
+	
+		<ext:UBLExtension>
+			<ext:ExtensionContent><ds:Signature Id="signatureKG" xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>tkBNoUeErXwL7KTelRVRfInpElk=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Ti+eEYokTU/wa5qU+0Jpaj+F4OU/fsOms9hvCOKPbUIfWNmypFNLib5ZUNrCQMwqKtkMEDdFuOAl&#13;
++EzTTTlXy84DyvzU1ElvAscKGXiLCP8yuGOZfovK2yrO3j3DZwR4ybbm354KbPlJN2ZdvjsIfxlT&#13;
+uNU2a7s4WX0F5u6eJrhzp1mOHjFFuOWXDmpYMg+q+rB5A4z538SndUn1W+mWeAUBCIOb+4VNROdW&#13;
+Anko2yZdyEbgb4cabvOTA53UaiEh1nwppGVcb8f/krCxxF56rdP7dsdvNrZscQNWoiMN4nZYXyHj&#13;
+XGnT/OBA/jciolznpoyjgyajdwpNUVGbKxyrWA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIGbTCCBVWgAwIBAgITMwAATNDlc9PgvV+U3wAAAABM0DANBgkqhkiG9w0BAQsFADCBkjELMAkG&#13;
+A1UEBhMCQ0gxEDAOBgNVBAoTB1dJU2VLZXkxJjAkBgNVBAsTHUNvcHlyaWdodCAoYykgMjAxNiBX&#13;
+SVNlS2V5IFNBMRYwFAYDVQQLEw1JbnRlcm5hdGlvbmFsMTEwLwYDVQQDEyhXSVNlS2V5IENlcnRp&#13;
+ZnlJRCBBZHZhbmNlZCBTZXJ2aWNlcyBDQSA0MB4XDTIxMDExMTE4MzIxMloXDTIyMDExMjE4MzIx&#13;
+MlowggFJMQswCQYDVQQGEwJQRTENMAsGA1UEBxMETElNQTEeMBwGA1UEChMVTUlUU1VJIEFVVE9N&#13;
+T1RSSVogUyBBMRgwFgYDVQQLEw9SVUMgMjAyNTYyMTEzMTAxJzAlBgNVBAsTHktFTlRBUk8gS0FU&#13;
+QU9LQSAtIENFIDAwMTc4NDUzMzErMCkGA1UECxMiVmFsaWRhdGVkIGJ5IFBlcnUgU2VjdXJlIEUg&#13;
+TmV0IFNBQzEzMDEGA1UECwwqQ2VydGlmaWNhZG8gY29ycG9yYXRpdm8gZGUgcmVwcmVzZW50YWNp&#13;
+w7NuMRgwFgYDVQQLEw9HRVJFTlRFIEdFTkVSQUwxHjAcBgNVBAMTFU1pdHN1aSBBdXRvbW90cml6&#13;
+IFMuQTEsMCoGCSqGSIb3DQEJARYdU0lTVEVNQVNATUlUU1VJQVVUT01PVFJJWi5DT00wggEiMA0G&#13;
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDabxxiXbjgjXP2a7yV6kSj8YNe7sbE3J07gONwPvnj&#13;
+9EuE42v/fwF9SH7GCojRFH+0hpuWrBhJl4zHCgOOsaK2z6joz2954VLi7lpcyTbnHXYpwksnJy7z&#13;
+rY6OrNVA/XePAChnNdF+sC9OVdBJ9KBKkzwFgmg0UyAGF2ryFvnIHgiWsDsgRUppb6ah+i4UcVSx&#13;
+qbv+WP33iqiRVZT/gijODKuOesenDaAtpyCKDzF7z8abA4cu24FkEMeV7nSHx4CAMDFuIrJDQ+BK&#13;
+4d90n3t+v06eX/XiImQoH0h2nQw/ANj29d5xDLKPdB5uatI1REyS+KLcBuuNpPNwrWqo7CVxAgMB&#13;
+AAGjggIAMIIB/DAdBgNVHQ4EFgQUp3btoVs9stEx55z3phVNe7b5U/MwDgYDVR0PAQH/BAQDAgbA&#13;
+MB8GA1UdIwQYMBaAFPTkm1fSrsKeiE0AuiuvZcljqYebMDwGA1UdHwQ1MDMwMaAvoC2GK2h0dHA6&#13;
+Ly9wdWJsaWMud2lzZWtleS5jb20vY3JsL3djaWRhc2NhNC5jcmwwbQYIKwYBBQUHAQEEYTBfMDcG&#13;
+CCsGAQUFBzAChitodHRwOi8vcHVibGljLndpc2VrZXkuY29tL2NydC93Y2lkYXNjYTQuY3J0MCQG&#13;
+CCsGAQUFBzABhhhodHRwOi8vb2NzcC53aXNla2V5LmNvbS8wNQYDVR0lBC4wLAYIKwYBBQUHAwIG&#13;
+CisGAQQBgjcKAwwGCCsGAQUFBwMEBgorBgEEAYI3FAICMEMGCSsGAQQBgjcVCgQ2MDQwCgYIKwYB&#13;
+BQUHAwIwDAYKKwYBBAGCNwoDDDAKBggrBgEFBQcDBDAMBgorBgEEAYI3FAICMCgGA1UdEQQhMB+B&#13;
+HVNJU1RFTUFTQE1JVFNVSUFVVE9NT1RSSVouQ09NMEQGCSqGSIb3DQEJDwQ3MDUwDgYIKoZIhvcN&#13;
+AwICAgCAMA4GCCqGSIb3DQMEAgIAgDAHBgUrDgMCBzAKBggqhkiG9w0DBzARBglghkgBhvhCAQEE&#13;
+BAMCAKAwDQYJKoZIhvcNAQELBQADggEBABcERT/PILHmehCmcRYtiJxmorsvMUyBGucew5LCTSOA&#13;
+F0qE+mv+XNJbq6gwlv/BdnQf9GiuYzJZML6aqTQRyiPgH3IesecWkcjGHvg5rAljqOU6eFrGt6nA&#13;
+U0OlGLOmILGf0Tdj9v+gZJ32x1Eg37DwiYAHawVBe4zomV1aOnNKVT5RUKWkaSN7yaP3iMDnWW1K&#13;
+uB4yVUUeL+LZYUfrsWlrEwxQjr+qjtUodbRGIfJgueAT/18FrVn4sxyUxaGGLzgrrSiNc6tmR1rq&#13;
+rj68P06ZSQMgs9APHrvfqocYi4qIhvz3GekSDFdv2tJFsjiBz+w6xHQctef8BQvue1KIu+8=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions><cbc:UBLVersionID>2.0</cbc:UBLVersionID><cbc:CustomizationID>1.0</cbc:CustomizationID><cbc:ID>RA-20210424-009</cbc:ID><cbc:ReferenceDate>2021-04-22</cbc:ReferenceDate><cbc:IssueDate>2021-04-24</cbc:IssueDate><cac:Signature><cbc:ID>IDSignKG</cbc:ID><cac:SignatoryParty><cac:PartyIdentification><cbc:ID>20256211310</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name><![CDATA[Mitsui Automotriz S. A.]]></cbc:Name></cac:PartyName></cac:SignatoryParty><cac:DigitalSignatureAttachment><cac:ExternalReference><cbc:URI>#signatureKG</cbc:URI></cac:ExternalReference></cac:DigitalSignatureAttachment></cac:Signature><cac:AccountingSupplierParty><cbc:CustomerAssignedAccountID>20256211310</cbc:CustomerAssignedAccountID><cbc:AdditionalAccountID>6</cbc:AdditionalAccountID><cac:Party><cac:PartyLegalEntity><cbc:RegistrationName><![CDATA[Mitsui Automotriz S. A.]]></cbc:RegistrationName></cac:PartyLegalEntity></cac:Party></cac:AccountingSupplierParty><sac:VoidedDocumentsLine><cbc:LineID>1</cbc:LineID><cbc:DocumentTypeCode>01</cbc:DocumentTypeCode><sac:DocumentSerialID>F013</sac:DocumentSerialID><sac:DocumentNumberID>00044516</sac:DocumentNumberID><sac:VoidReasonDescription>Anulación de la Operación</sac:VoidReasonDescription></sac:VoidedDocumentsLine><sac:VoidedDocumentsLine><cbc:LineID>2</cbc:LineID><cbc:DocumentTypeCode>01</cbc:DocumentTypeCode><sac:DocumentSerialID>F023</sac:DocumentSerialID><sac:DocumentNumberID>00061306</sac:DocumentNumberID><sac:VoidReasonDescription>Anulación de la Operación</sac:VoidReasonDescription></sac:VoidedDocumentsLine><sac:VoidedDocumentsLine><cbc:LineID>3</cbc:LineID><cbc:DocumentTypeCode>01</cbc:DocumentTypeCode><sac:DocumentSerialID>F050</sac:DocumentSerialID><sac:DocumentNumberID>00040267</sac:DocumentNumberID><sac:VoidReasonDescription>Anulación de la Operación</sac:VoidReasonDescription></sac:VoidedDocumentsLine><sac:VoidedDocumentsLine><cbc:LineID>4</cbc:LineID><cbc:DocumentTypeCode>01</cbc:DocumentTypeCode><sac:DocumentSerialID>F023</sac:DocumentSerialID><sac:DocumentNumberID>00061311</sac:DocumentNumberID><sac:VoidReasonDescription>Anulación de la Operación</sac:VoidReasonDescription></sac:VoidedDocumentsLine></VoidedDocuments>
